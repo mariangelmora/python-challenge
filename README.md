@@ -1,1 +1,2 @@
 # python-challenge
+For this assignment I followed the same logic as on the first python exercises for students on gitlab, I also reference to the exercise t open the csv file and followed the same code. I did ask XpertLearningAssistant for some guidance to start the code and find the loops to go through the codes. I couldn't attend the tutoring sessions because they were cancelled due to conflicts schedule with the tutor. I did have help from a friend to be able to run the code smoothly
