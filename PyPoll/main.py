@@ -4,16 +4,18 @@ import csv
 #path to find the file
 csvpath = os.path.join(r"https://raw.githubusercontent.com/mariangelmora/python-challenge/main/PyPoll/Resources/election_data.csv")
 
-#variable to keep track of the vote count
+#declare variables to count votes and keep track
 total_votes = 0
-#empty list to add candidates
+
+#create empty dictionary to store values from candidate
 candidates_votes = {}
 
 #open the file
 with open (csvpath) as csvfile:
     csvreader = csv.reader(csvfile, delimiter = ',')
-    #start from the second row
+    #declare header and start from the second row
     csv_header = next(csvreader)
+    #print header
     print(f'csvheader: {csv_header}')
     
     # Iterate through each row in the CSV
@@ -24,7 +26,7 @@ with open (csvpath) as csvfile:
         # calculate the total votes 
         total_votes += 1
 
-      
+        #to add 1 vote to candidate if not add candidate to dictionary
         if candidate in candidates_votes:
             candidates_votes[candidate] += 1
         else:
