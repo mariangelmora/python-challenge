@@ -2,7 +2,7 @@ import os
 import csv
 
 #path to find the file
-csvpath = os.path.join(r"C:\Users\maria\Desktop\Bootcamp\python\Python challenge\Starter_Code\PyPoll\Resources1\election_data.csv")
+csvpath = os.path.join('.','budget_data.csv')
 
 #variable to keep track of the vote count
 total_votes = 0
