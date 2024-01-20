@@ -1,7 +1,7 @@
 import csv
 
 #read csv file
-csvpath = os.path.join(r"C:\Users\maria\Desktop\Bootcamp\python\Python challenge\Starter_Code\PyBank\Resources\budget_data.csv")
+csvpath = os.path.join(r"https://github.com/mariangelmora/python-challenge/blob/main/PyBank/Resources/budget_data.csv")
 
 #open the CSV file
 with open(csvpath) as csvfile:
